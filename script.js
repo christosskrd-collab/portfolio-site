@@ -32,5 +32,23 @@ fetch(`https://api.github.com/users/${username}/repos`)
       container.appendChild(project);
 
     });
+    tsParticles.load("particles", {
+  particles: {
+    number: {
+      value: 60
+    },
+    size: {
+      value: 3
+    },
+    move: {
+      enable: true,
+      speed: 1
+    },
+    links: {
+      enable: true,
+      distance: 150
+    }
+  }
+});
 
   });
