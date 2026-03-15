@@ -1,5 +1,17 @@
 const username = "christosskrd-collab";
 
+var typed = new Typed("#typing", {
+  strings: [
+    "Junior Developer",
+    "Python Automation",
+    "Web Development",
+    "Learning Every Day"
+  ],
+  typeSpeed: 50,
+  backSpeed: 30,
+  loop: true
+});
+
 fetch(`https://api.github.com/users/${username}/repos`)
   .then(response => response.json())
   .then(data => {
