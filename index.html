@@ -6,8 +6,10 @@
   <title>Chris | Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 </head>
 <body>
+  <div id="particles"></div>
 <nav>
   <ul>
     <li><a href="#about">About</a></li>
@@ -18,10 +20,11 @@
 </nav>
   <header class="hero">
     <h1>Χρήστος Σκορδίλης</h1>
-    <p>Junior Developer in Progress</p>
+     <img src="images/profile.jpg" alt="Chris" class="profile-pic">
+    <p><span id="typing"></span></p>
       <section id ="contact">
     <h2>Επικοινωνία:</h2>
-    <p>E-mail📧:chrisτos.skrd@gmail.com</p>
+    <p>E-mail📧:christos.skrd@gmail.com</p>
     <p>Τηλ.Επικοινωνίας📞:6907080292</p>
     <a href="#projects" class="btn">View My Work</a>
   </section>
@@ -85,9 +88,18 @@
       <h3>Python Automation</h3>
       <p>Scripts to automate file organization.</p>
     </div>
+    <section id="projects">
+
+  <h2>Projects</h2>
+
+  <div id="projects-container" class="projects-grid">
+  </div>
+
+</section>
 
   </div>
 </section>
-
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="script.js"></script>
 </body>
 </html>
